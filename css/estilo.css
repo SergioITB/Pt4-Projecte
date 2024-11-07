@@ -111,9 +111,33 @@ aside {
 
 /* Pie de página */
 footer {
-    background-color: #333;
+    background-color: #333;  /* Fondo oscuro */
     color: white;
-    text-align: center;
     padding: 20px;
-    font-size: 14px;
+    text-align: center;
 }
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;  /* Espacio entre los elementos */
+}
+
+footer nav ul li {
+    display: inline;
+}
+
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+footer nav ul li a:hover {
+    text-decoration: underline;  /* Subrayado al pasar el mouse */
+}
+

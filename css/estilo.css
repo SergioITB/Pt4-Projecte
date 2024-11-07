@@ -14,7 +14,7 @@ header {
 }
 
 header .logo img {
-    width: 200px; /* Ajusta el tamaño según sea necesario */
+    width: 350px; /* Ajusta el tamaño según sea necesario */
 }
 
 header .logo p {
@@ -43,7 +43,8 @@ nav ul li a {
 
 .indice {
     color: black;
-    font-size: 14px;
+    font-size: 1px;
+    word-spacing: 30px;
     margin: 5px 0 0;
 }
 
@@ -74,12 +75,13 @@ aside {
 }
 
 .suscripcion button {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #7ABA96;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
     border: none;
     padding: 10px;
-    cursor: pointer;
-    font-size: 16px;
+    width: 100%;
 }
 
 .suscripcion button:hover {
@@ -88,7 +90,7 @@ aside {
 
 /* Sección de artículos */
 .articulos {
-    width: 75%;
+    width: 55%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
@@ -119,7 +121,7 @@ aside {
 footer {
     background-color: #333;  /* Fondo oscuro */
     color: white;
-    padding: 20px;
+    padding: 30px;
     text-align: center;
     word-spacing: 30px;
 }

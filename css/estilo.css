@@ -41,6 +41,12 @@ nav ul li a {
     font-weight: bold;
 }
 
+.indice {
+    color: black;
+    font-size: 14px;
+    margin: 5px 0 0;
+}
+
 /* Contenedor principal */
 main {
     display: flex;
@@ -115,29 +121,20 @@ footer {
     color: white;
     padding: 20px;
     text-align: center;
+    word-spacing: 30px;
 }
-
-footer nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    gap: 30px;  /* Espacio entre los elementos */
-}
-
-footer nav ul li {
-    display: inline;
-}
-
-footer nav ul li a {
+.pie {
     color: white;
-    text-decoration: none;
     font-size: 14px;
-    font-weight: normal;
+    margin: 5px 0 0;
+    text-decoration: none;
 }
 
-footer nav ul li a:hover {
-    text-decoration: underline;  /* Subrayado al pasar el mouse */
-}
 
+/* Enlaces */
+a:visited {
+    color: lightblue;
+}
+a:hover {
+    color: #7ABA96;
+}

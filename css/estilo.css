@@ -9,8 +9,7 @@ body {
 /* Encabezado */
 header {
     text-align: center;
-    padding: 20px 0;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 2px solid black;
 }
 
 header .logo img {
@@ -29,6 +28,7 @@ nav ul {
     display: flex;
     justify-content: center;
     gap: 15px;
+    border-top: 2px solid rgb(226, 226, 205);
 }
 
 nav ul li {
@@ -37,14 +37,14 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #000000;
     font-weight: bold;
 }
 
 .indice {
     color: black;
     font-size: 16px;
-    margin: 5px 0 0;
+    line-height: 3;
 }
 
 /* Contenedor principal */
@@ -123,6 +123,7 @@ footer {
     padding: 30px;
     text-align: center;
     word-spacing: 30px;
+    flex: auto;
 }
 .pie {
     color: white;

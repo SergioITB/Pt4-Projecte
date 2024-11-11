@@ -57,20 +57,37 @@ main {
 }
 
 aside {
-    width: 25%;
+    width: 45%;
 }
 
 /* Barra lateral */
-.sobre-mi, .suscripcion {
+.suscripcion {
     background-color: #f7f7f7;
     padding: 15px;
     margin-bottom: 20px;
     text-align: center;
 }
 
+.sobre-mi {
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 .sobre-mi img, .suscripcion img {
-    width: 80%;
+    width: 50%;
     border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sobre-mi h2, .suscripcion h2 {
+    text-align: center;
+}
+
+.sobre-mi p, .suscripcion p {
+    text-align: justify;
 }
 
 .suscripcion button {
@@ -89,16 +106,16 @@ aside {
 
 /* Sección de artículos */
 .articulos {
-    width: 55%;
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
 }
 
 .articulos article {
     background-color: #fff;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: none;
 }
 
 .articulos img {
@@ -109,11 +126,15 @@ aside {
 .articulos h3 {
     font-size: 18px;
     margin: 10px 0 5px;
+    text-align: center;
 }
 
 .fecha {
-    color: #888;
+    color: #000000;
     font-size: 14px;
+    text-align: center;
+    border-bottom: solid 2px #7ABA96;
+    border-top: solid 2px #7ABA96;
 }
 
 /* Pie de página */

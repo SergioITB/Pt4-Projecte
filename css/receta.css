@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    flex-direction: column; /* Alinea los elementos en columna */
+    min-height: 100%; /* Asegura que el body ocupe al menos el 100% de la altura de la ventana */
+    margin: 0;
+    background-image:url(../imatges/barritas.jpg);
+}
+
+.container {
+    width: 60%; /* Ajusta el ancho del contenedor */
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: white
+}
+
+header {
+    width: 60%; /* Ajusta el ancho del contenedor */
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: green;
+}
+
+header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb {
+    color: #777;
+    text-align: left;
+    background-color: white;
+}
+
+.breadcrumb a {
+    color: #777;
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.recipes {
+    text-align: center;
+    background-color: lightgray
+}
+
+.recipes h2 {
+    color: #006400;
+}
+
+.recipe {
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.recipe h3 {
+    color: #006400;
+    margin: 0;
+}
+
+.recipe p.description {
+    font-style: italic;
+    margin: 5px 0;
+}
+
+.recipe-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.icon-favorite,
+.icon-print,
+.icon-pdf {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.icon-favorite {
+    background-image: url('favorite-icon.png'); /* Icono de favorito */
+}
+
+.icon-print {
+    background-image: url('print-icon.png'); /* Icono de impresión */
+}
+
+.icon-pdf {
+    background-image: url('pdf-icon.png'); /* Icono de PDF */
+}
+
+/* Botones de paginación */
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    background-color: #006400;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pagination button:hover {
+    background-color: #004d00;
+}

@@ -1,9 +1,9 @@
 /* Estilo global */
-* {
+html {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 body {
@@ -56,26 +56,8 @@ nav ul li a {
 
 /* Sección principal */
 main {
+    flex: 1;
     padding: 20px;
-}
-
-.bienvenida {
-    background-color: #fff;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.bienvenida h1 {
-    font-size: 2.5rem;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-.bienvenida p {
-    font-size: 1.2rem;
-    color: #555;
 }
 
 .sobre-mi {
@@ -99,14 +81,18 @@ main {
 
 /* Pie de página */
 footer {
-    background-color: #333;
+    background-color: #333; 
     color: white;
+    padding: 30px;
     text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    font-size: 0.9rem;
+    word-spacing: 30px;
+    flex-shrink: 0;
+}
+.pie {
+    color: white;
+    font-size: 14px;
+    margin: 5px 0 0;
+    text-decoration: none;
 }
 
 /* Enlaces */

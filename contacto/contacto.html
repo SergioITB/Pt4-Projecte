@@ -1,1 +1,76 @@
 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Alta</title>
+    <link rel="stylesheet" href="../css/contacto.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <div class="logo">
+            <img src="../imatges/delicias.png" alt="Delicias Kitchen Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a class="indice" href="../index.html">INICIO</a></li>
+                <li><a class="indice" href="../sobre_mi/sobre_mi.html">SOBRE MÍ</a></li>
+                <li><a class="indice" href="../receta/receta.html">RECETAS</a></li>
+                <li><a class="indice" href="../contacto/contacto.html">CONTACTO</a></li>
+                <li><a class="indice" href="../otras_cosas/otras_cosas.html">OTRAS COSAS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenedor principal -->
+    <main>
+        <section class="form-container">
+            <h1>Formulario de Alta</h1>
+            <p>¡Únete a nuestra comunidad, deja tus comentarios o envía tus propias recetas!</p>
+            
+            <!-- Formulario -->
+            <form action="https://example.com/form" method="GET">
+                <!-- Nombre -->
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                
+                <!-- Correo Electrónico -->
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="Tu email" required>
+                
+                <!-- Tipo de Mensaje -->
+                <label for="tipo">¿Qué deseas enviar?</label>
+                <select id="tipo" name="tipo" required>
+                    <option value="alta">Darme de alta</option>
+                    <option value="comentario">Dejar un comentario</option>
+                    <option value="receta">Añadir una receta nueva</option>
+                </select>
+                
+                <!-- Comentarios/Receta -->
+                <label for="mensaje">Escribe tu comentario o receta:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe aquí..." required></textarea>
+                
+                <!-- Archivos Adjuntos -->
+                <label for="archivo">Adjuntar imagen o archivo (opcional):</label>
+                <input type="file" id="archivo" name="archivo" accept="image/*, .pdf, .docx">
+                
+                <!-- Checkbox de Consentimiento -->
+                <div class="checkbox">
+                    <input type="checkbox" id="consentimiento" name="consentimiento" required>
+                    <label for="consentimiento">Acepto los términos y condiciones</label>
+                </div>
+                
+                <!-- Botón de Enviar -->
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <p>© 2024 Delicias Kitchen. Recetas veganas y saludables.</p>
+    </footer>
+</body>
+</html>

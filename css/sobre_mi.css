@@ -1,0 +1,118 @@
+/* Estilo global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    margin-top: 20px;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+header .logo img {
+    width: 350px; /* Ajusta el tamaño según sea necesario */
+}
+
+header .logo p {
+    font-size: 14px;
+    margin: 5px 0 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    border-top: 2px solid rgb(226, 226, 205);
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.indice {
+    color: black;
+    font-size: 16px;
+    line-height: 3;
+}
+
+/* Sección principal */
+main {
+    padding: 20px;
+}
+
+.bienvenida {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bienvenida h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.bienvenida p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.sobre-mi {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sobre-mi h2 {
+    font-size: 2rem;
+    color: #4CAF50;
+    margin-bottom: 15px;
+}
+
+.sobre-mi p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+}
+
+/* Enlaces */
+a:visited {
+    color: lightblue;
+}
+a:hover {
+    color: #7ABA96;
+}

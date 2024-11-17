@@ -8,6 +8,7 @@ body {
 
 /* Encabezado */
 header {
+    margin-top: 20px;
     text-align: center;
     border-bottom: 2px solid black;
 }
@@ -129,6 +130,11 @@ aside {
     text-align: center;
 }
 
+.articulos a {
+    text-decoration: none;
+    color: #000; 
+}
+
 .fecha {
     color: #000000;
     font-size: 14px;
@@ -139,7 +145,7 @@ aside {
 
 /* Pie de página */
 footer {
-    background-color: #333;  /* Fondo oscuro */
+    background-color: #333; 
     color: white;
     padding: 30px;
     text-align: center;
@@ -160,4 +166,12 @@ a:visited {
 }
 a:hover {
     color: #7ABA96;
+}
+
+.articulos a:visited {
+    color: rgb(155, 155, 155); /* Color gris */
+}
+
+.articulos a:hover {
+    color: #626362; /* Color verde */
 }

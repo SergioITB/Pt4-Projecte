@@ -1,0 +1,115 @@
+/* Estilo global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    margin-top: 20px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    
+}
+
+header .logo img {
+    width: 350px; /* Ajusta el tamaño según sea necesario */
+}
+
+header .logo p {
+    font-size: 14px;
+    margin: 5px 0 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    border-top: 2px solid rgb(226, 226, 205);
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.indice {
+    color: black;
+    font-size: 16px;
+    line-height: 3;
+}
+
+/* Sección "Otras Cosas" */
+.otras-cosas {
+    padding: 20px;
+    background-color: #f9f9f9; 
+    margin-left: 100px; 
+    margin-right: 100px;
+}
+/* Título principal de la página "Otras Cosas" */
+.otras-cosas h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Títulos de las subsecciones dentro de "Otras Cosas" */
+.otras-cosas h3 {
+    color: #4CAF50; /* Verde para mantener la coherencia con el tema saludable */
+    margin-top: 20px;
+}
+
+/* Listas de consejos, eventos, y blog */
+.otras-cosas ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.otras-cosas ul li {
+    margin-bottom: 10px;
+}
+
+/* Estilo para los párrafos dentro de "Otras Cosas" */
+.otras-cosas p {
+    color: #555; /* Color gris claro para el texto */
+    margin-bottom: 15px;
+}
+
+/* Estilo para cada subsección de la página "Otras Cosas" */
+.bienestar, .eventos, .colaboraciones, .blog {
+    margin-top: 30px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333; /* Fondo oscuro para el pie de página */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+}
+
+/* Enlaces */
+a:visited {
+    color: lightblue;
+}
+a:hover {
+    color: #7ABA96;
+}

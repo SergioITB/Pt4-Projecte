@@ -1,0 +1,108 @@
+/* Encabezado*/
+header {
+    margin-top: 20px;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+header .logo img {
+    width: 350px; /* Ajusta el tamaño según sea necesario */
+}
+
+header .logo p {
+    font-size: 14px;
+    margin: 5px 0 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    border-top: 2px solid rgb(226, 226, 205);
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.indice {
+    color: black;
+    font-size: 16px;
+    line-height: 3;
+}
+
+/* Contenedor del formulario */
+.form-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input, select, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #7ABA96;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #6aa383;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center; 
+    gap: 10px; /* Espai entre el checkbox i el text */
+    margin-bottom: 15px; 
+    font-size: 16px;
+    line-height: 1.5;
+
+}
+
+.checkbox input[type="checkbox"] {
+    width: auto; 
+    margin: 0; /* Elimina marges per defecte */
+}
+
+/* Enlaces */
+a:visited {
+    color: lightblue;
+}
+a:hover {
+    color: #7ABA96;
+}

@@ -61,6 +61,8 @@ nav ul li a {
     background-color: #f9f9f9; 
     margin-left: 100px; 
     margin-right: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
 }
 /* Título principal de la página "Otras Cosas" */
 .otras-cosas h2 {

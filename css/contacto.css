@@ -47,7 +47,7 @@ nav ul li a {
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .form-container h1 {
@@ -63,7 +63,7 @@ label {
 }
 
 input, select, textarea, button {
-    width: 100%;
+    width: 95%;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
@@ -78,6 +78,7 @@ button {
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    width: 100%;
 }
 
 button:hover {

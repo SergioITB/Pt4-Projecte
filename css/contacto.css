@@ -1,7 +1,9 @@
 html {
     height: 100%;
-    width: 100%;
     margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Encabezado*/
@@ -83,7 +85,7 @@ button {
     font-size: 18px;
     border: none;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: 0.3s ease;
     width: 100%;
 }
 
@@ -98,7 +100,6 @@ button:hover {
     margin-bottom: 15px; 
     font-size: 16px;
     line-height: 1.5;
-
 }
 
 .checkbox input[type="checkbox"] {

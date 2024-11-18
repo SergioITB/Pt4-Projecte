@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background-color: #ffffff;
     display: flex;
     justify-content: center; /* Centra el contenido horizontalmente */
     align-items: center; /* Centra el contenido verticalmente */
@@ -63,13 +63,13 @@ nav ul li a {
 }
 
 .breadcrumb {
-    color: #777;
+    color: #c4c2c2;
     text-align: left;
     background-color: white;
 }
 
 .breadcrumb a {
-    color: #777;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -84,6 +84,8 @@ nav ul li a {
 
 .recipes h2 {
     color: #006400;
+    text-decoration: none;
+
 }
 
 .recipe {
@@ -92,6 +94,8 @@ nav ul li a {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: left;
+    text-decoration: none;
+
 }
 
 .recipe h3 {
@@ -137,23 +141,41 @@ nav ul li a {
 
 /* Botones de paginación */
 .pagination {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.pagination button {
-    background-color: #006400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background: #ddd;
+    padding: 10px;
+  }
+  
+  .btn {
+    background-color: green;
     color: white;
     border: none;
-    padding: 10px 15px;
-    margin: 0 5px;
     border-radius: 5px;
+    padding: 10px 20px;
     cursor: pointer;
-}
-
-.pagination button:hover {
-    background-color: #004d00;
-}
+    margin: 0 10px;
+  }
+  
+  .page-numbers {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .page {
+    background-color: #fff;
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .page:hover {
+    background-color: green;
+    color: white;
+  }
 /* Pie de página */
 footer {
     background-color: #333; 

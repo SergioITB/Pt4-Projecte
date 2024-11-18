@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffffff;
+    background-color: #f9f9f9;
     display: flex;
     justify-content: center; /* Centra el contenido horizontalmente */
     align-items: center; /* Centra el contenido verticalmente */
@@ -15,7 +15,7 @@ body {
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    background-color: white
+    background-color: white;
 }
 
 /* Encabezado */
@@ -24,7 +24,6 @@ header {
     text-align: center;
     border-bottom: 2px solid black;
     min-width: 100%;
-    
 }
 
 header .logo img {
@@ -63,7 +62,7 @@ nav ul li a {
 }
 
 .breadcrumb {
-    color: #c4c2c2;
+    color: #000000;
     text-align: left;
     background-color: white;
 }
@@ -79,7 +78,7 @@ nav ul li a {
 
 .recipes {
     text-align: center;
-    background-color: lightgray
+    background-color: #fff;
 }
 
 .recipes h2 {

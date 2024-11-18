@@ -3,239 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cocina Online</title>
-    <link rel="stylesheet" href="../css/receta.css">
+    <title>Delicias Kitchen</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    
+    <!-- Encabezado con logo e imagen -->
     <header>
-        <h1>Cocina Online</h1>
-        <p>Publica y comparte recetas de cocina en Internet</p>
+        <div class="logo">
+            <img src="imatges/delicias.png" alt="Delicias Kitchen Logo">
+        </div>
         <nav>
-            <a href="../index.html">Inicio</a>
-            <a href="#">Recientes</a>
-            <a href="#">Publicar</a>
-            <a href="#">Favoritas</a>
+            <ul>
+                <li><a class="indice" href="index.html">INICIO</a></li>
+                <li><a class="indice" href="sobre_mi/sobre_mi.html">SOBRE MÍ</a></li>
+                <li><a class="indice" href="receta/receta.html">RECETAS</a></li>
+                <li><a class="indice" href="contacto/contacto.html">CONTACTO</a></li>
+                <li><a class="indice" href="otras_cosas/otras_cosas.html">OTRAS COSAS</a></li>
+            </ul>
         </nav>
     </header>
-    <div class="container">
-        <section class="breadcrumb">
-            <a href="../index.html">Inicio</a> &gt; <a href="../receta/receta.html">Recetas</a>
+
+    <!-- Contenedor principal -->
+    <main>
+        <!-- Barra lateral izquierda -->
+        <aside>
+            <section class="sobre-mi">
+                <h2>Sobre mí</h2>
+                <img src="imatges/isagil.png" alt="Foto de perfil">
+                <p>Hola, bienvenid@ a mi blog, un espacio donde quiero compartir mis recetas vegetarianas y veganas favoritas...</p>
+            </section>
+            <section class="suscripcion">
+                <h2>Suscríbete a mi blog</h2>
+                <img src="imatges/libro.png" alt="Imagen del libro">
+                <p>Y consigue GRATIS mi eBook con 10 recetas exclusivas con superalimentos.</p>
+                <button>Apúntame</button>
+            </section>
+        </aside>
+
+        <!-- Sección de artículos -->
+        <section class="articulos">
+            <article>
+                <img src="imatges/Pasta.jpg" alt="Imagen de receta">
+                <a href="receta/pasta.html"><h3>Pasta con salsa de coliflor y pimienta de Jamaica</h3></a>
+                <p class="fecha">13 marzo, 2019</p>
+                <p>Una salsa vegana para la pasta, tan sabrosa y cremosa que resulta irresistible! Esta elaborada con coliffor y con otros ingredientes vegetales, que la convierten: en...</p>
+            </article>
+            <article>
+                <img src="imatges/galletas.jpg" alt="Imagen de receta">
+                <a href="receta/galletas.html"><h3>Galletas de avena, rosa y lima</h3></a>
+                <p class="fecha">12 febrero, 2019</p>
+                <p>Galletitas para San Valentin? Estas galletas ricas y crujientes, elaboradas con avena y con un rico sabor a rosa y lima son perfectas para celebrario!
+                </p>
+            </article>
+            <article>
+                <img src="imatges/mijo.jpg" alt="Imagen de receta">
+                <a href="receta/mijo.html"><h3>Mijo cremoso con lentejas, hortalizas y shiitake</h3></a>
+                <p class="fecha">1 febrero, 2019</p>
+                <p>Un buen plato de mijo cremoso con lentejas hortalizas es todo lo que necesitas para templar ef cuerpo este invierno! Delicioso y facil                </p>
+            </article>
+            <article>
+                <img src="imatges/calabacines.jpg" alt="Imagen de receta">
+                <a href="receta/calabacines.html"><h3>Calabacines rellenos de arroz negro y calabaza</h3></a>
+                <p class="fecha">18 diciembre, 2018</p>
+                <p>Estos calabacines rellenos de arroz negro y calabaza que te propongo hoy, son la Gltima receta que publico en el blog en...</p>
+            </article>
         </section>
-        <section class="recipes">
-            <h2>Recetas de pastas</h2>
-            <p>La pasta es uno de los pilares básicos en la alimentación de un deportista...</p>
+    </main>
 
-            <div class="recipe">
-                <a class="indice" href="../receta/galletas.html"><h3>Galletas de avena, rosa y lima</h3></a>
-                <p class="description">Receta de Galletas de avena, rosa y lima</p>
-                <p><strong>Dificultad:</strong> baja <strong>Cocina:</strong> tradicional <strong>Vegetariana:</strong> si <strong>Celíacos:</strong> no <strong>Anticáncer:</strong> no</p>
-                <p><strong>Autor:</strong> IVANRUGARCIA</p>
-                <div class="recipe-icons">
-                    <span class="icon-favorite">⭐</span>
-                    <span class="icon-print">🖨️</span>
-                    <span class="icon-pdf">📄</span>
-                </div>
-            </div>
-
-            <div class="recipe">
-                <h3>Arroz negro</h3>
-                <p class="description">Receta de Arroz negro</p>
-                <p><strong>Dificultad:</strong> baja <strong>Cocina:</strong> tradicional <strong>Vegetariana:</strong> sí <strong>Celíacos:</strong> no <strong>Anticáncer:</strong> no</p>
-                <p><strong>Autor:</strong> IVANRUGARCIA</p>
-                <div class="recipe-icons">
-                    <span class="icon-favorite">⭐</span>
-                    <span class="icon-print">🖨️</span>
-                    <span class="icon-pdf">📄</span>
-                </div>
-            </div>
-
-            <div class="recipe">
-                <h3>Base de pizza</h3>
-                <p class="description">Receta de Base de pizza</p>
-                <p><strong>Dificultad:</strong> media <strong>Cocina:</strong> tradicional <strong>Vegetariana:</strong> no <strong>Celíacos:</strong> no <strong>Anticáncer:</strong> no</p>
-                <p><strong>Autor:</strong> Selena</p>
-                <div class="recipe-icons">
-                    <span class="icon-favorite">⭐</span>
-                    <span class="icon-print">🖨️</span>
-                    <span class="icon-pdf">📄</span>
-                </div>
-            </div>
-
-            <div class="recipe">
-                <h3>Espaguetis a la carbonara</h3>
-                <p class="description">Receta de Espaguetis a la carbonara</p>
-                <p><strong>Dificultad:</strong> media <strong>Cocina:</strong> italiana <strong>Vegetariana:</strong> no <strong>Celíacos:</strong> no <strong>Anticáncer:</strong> no</p>
-                <p><strong>Autor:</strong> Mario</p>
-                <div class="recipe-icons">
-                    <span class="icon-favorite">⭐</span>
-                    <span class="icon-print">🖨️</span>
-                    <span class="icon-pdf">📄</span>
-                </div>
-            </div>
-    
-            <div class="recipe">
-                <h3>Fettuccine Alfredo</h3>
-                <p class="description">Receta de Fettuccine Alfredo</p>
-                <p><strong>Dificultad:</strong> baja <strong>Cocina:</strong> italiana <strong>Vegetariana:</strong> sí <strong>Celíacos:</strong> no <strong>Anticáncer:</strong> no</p>
-                <p><strong>Autor:</strong> Laura</p>
-                <div class="recipe-icons">
-                    <span class="icon-favorite">⭐</span>
-                    <span class="icon-print">🖨️</span>
-                    <span class="icon-pdf">📄</span>
-                </div>
-            </div>
-    
-            <div class="recipe">
-                <h3>Lasagna</h3>
-                <p class="description">Receta de Lasagna</p>
-                <p><strong>Dificultad:</strong> alta <strong>Cocina:</strong> italiana <strong>Vegetariana:</strong> no <strong>Celíacos:</strong> no <strong>Anticáncer:</strong> no</p>
-                <p><strong>Autor:</strong> Ana</p>
-                <div class="recipe-icons">
-                    <span class="icon-favorite">⭐</span>
-                    <span class="icon-print">🖨️</span>
-                    <span class="icon-pdf">📄</span>
-                </div>
-            </div>
-    
-            <div class="recipe">
-                <h3>Macarrones con queso</h3>
-                <p class="description">Receta de Macarrones con queso</p>
-                <p><strong>Dificultad:</strong> baja <strong>Cocina:</strong> americana <strong>Vegetariana:</strong> sí <strong>Celíacos:</strong> no <strong>Anticáncer:</strong> no</p>
-                <p><strong>Autor:</strong> John</p>
-                <div class="recipe-icons">
-                    <span class="icon-favorite">⭐</span>
-                    <span class="icon-print">🖨️</span>
-                    <span class="icon-pdf">📄</span>
-                </div>
-            </div>
-    
-            <div class="recipe">
-                <h3>Pasta al pesto</h3>
-                <p class="description">Receta de Pasta al pesto</p>
-                <p><strong>Dificultad:</strong> baja <strong>Cocina:</strong> italiana <strong>Vegetariana:</strong> sí <strong>Celíacos:</strong> no <strong>Anticáncer:</strong> no</p>
-                <p><strong>Autor:</strong> Maria</p>
-                <div class="recipe-icons">
-                    <span class="icon-favorite">⭐</span>
-                    <span class="icon-print">🖨️</span>
-                    <span class="icon-pdf">📄</span>
-                </div>
-            </div>
-    
-            <div class="recipe">
-                <h3>Raviolis de espinaca</h3>
-                <p class="description">Receta de Raviolis de espinaca</p>
-                <p><strong>Dificultad:</strong> media <strong>Cocina:</strong> italiana <strong>Vegetariana:</strong> sí <strong>Celíacos:</strong> no <strong>Anticáncer:</strong> no</p>
-                <p><strong>Autor:</strong> Lucia</p>
-                <div class="recipe-icons">
-                    <span class="icon-favorite">⭐</span>
-                    <span class="icon-print">🖨️</span>
-                    <span class="icon-pdf">📄</span>
-                </div>
-            </div>
-    
-            <div class="recipe">
-                <h3>Tallarines con mariscos</h3>
-                <p class="description">Receta de Tallarines con mariscos</p>
-                <p><strong>Dificultad:</strong> alta <strong>Cocina:</strong> mediterránea <strong>Vegetariana:</strong> no <strong>Celíacos:</strong> no <strong>Anticáncer:</strong> no</p>
-                <p><strong>Autor:</strong> Carlos</p>
-                <div class="recipe-icons">
-                    <span class="icon-favorite">⭐</span>
-                    <span class="icon-print">🖨️</span>
-                    <span class="icon-pdf">📄</span>
-                </div>
-            </div>
-    
-            <div class="recipe">
-                <h3>Pasta primavera</h3>
-                <p class="description">Receta de Pasta primavera</p>
-                <p><strong>Dificultad:</strong> baja <strong>Cocina:</strong> italiana <strong>Vegetariana:</strong> sí <strong>Celíacos:</strong> no <strong>Anticáncer:</strong> no</p>
-                <p><strong>Autor:</strong> Sofia</p>
-                <div class="recipe-icons">
-                    <span class="icon-favorite">⭐</span>
-                    <span class="icon-print">🖨️</span>
-                    <span class="icon-pdf">📄</span>
-                </div>
-            </div>
-    
-            <div class="recipe">
-                <h3>Spaghetti Bolognese</h3>
-                <p class="description">Receta de Spaghetti Bolognese</p>
-                <p><strong>Dificultad:</strong> media <strong>Cocina:</strong> italiana <strong>Vegetariana:</strong> no <strong>Celíacos:</strong> no <strong>Anticáncer:</strong> no</p>
-                <p><strong>Autor:</strong> Marco</p>
-                <div class="recipe-icons">
-                    <span class="icon-favorite">⭐</span>
-                    <span class="icon-print">🖨️</span>
-                    <span class="icon-pdf">📄</span>
-                </div>
-            </div>
-    
-            <div class="recipe">
-                <h3>Pasta con salsa de tomate</h3>
-                <p class="description">Receta de Pasta con salsa de tomate</p>
-                <p><strong>Dificultad:</strong> baja <strong>Cocina:</strong> italiana <strong>Vegetariana:</strong> sí <strong>Celíacos:</strong> no <strong>Anticáncer:</strong> no</p>
-                <p><strong>Autor:</strong> Elena</p>
-                <div class="recipe-icons">
-                    <span class="icon-favorite">⭐</span>
-                    <span class="icon-print">🖨️</span>
-                    <span class="icon-pdf">📄</span>
-                </div>
-            </div>
-    
-            <div class="recipe">
-                <h3>Ensalada de pasta</h3>
-                <p class="description">Receta de Ensalada de pasta</p>
-                <p><strong>Dificultad:</strong> baja <strong>Cocina:</strong> mediterránea <strong>Vegetariana:</strong> sí <strong>Celíacos:</strong> no <strong>Anticáncer:</strong> no</p>
-                <p><strong>Autor:</strong> Laura</p>
-                <div class="recipe-icons">
-                    <span class="icon-favorite">⭐</span>
-                    <span class="icon-print">🖨️</span>
-                    <span class="icon-pdf">📄</span>
-                </div>
-            </div>
-    
-            <div class="recipe">
-                <h3>Pasta con champiñones</h3>
-                <p class="description">Receta de Pasta con champiñones</p>
-                <p><strong>Dificultad:</strong> media <strong>Cocina:</strong> italiana <strong>Vegetariana:</strong> sí <strong>Celíacos:</strong> no <strong>Anticáncer:</strong> no</p>
-                <p><strong>Autor:</strong> Pedro</p>
-                <div class="recipe-icons">
-                    <span class="icon-favorite">⭐</span>
-                    <span class="icon-print">🖨️</span>
-                    <span class="icon-pdf">📄</span>
-                </div>
-            </div>
-    
-            <div class="recipe">
-                <h3>Pasta con espárragos</h3>
-                <p class="description">Receta de Pasta con espárragos</p>
-                <p><strong>Dificultad:</strong> baja <strong>Cocina:</strong> mediterránea <strong>Vegetariana:</strong> sí <strong>Celíacos:</strong> no <strong>Anticáncer:</strong> no</p>
-                <p><strong>Autor:</strong> Marta</p>
-                <div class="recipe-icons">
-                    <span class="icon-favorite">⭐</span>
-                    <span class="icon-print">🖨️</span>
-                    <span class="icon-pdf">📄</span>
-                </div>
-            </div>
-    
-            <div class="recipe">
-                <h3>Pasta con albahaca</h3>
-                <p class="description">Receta de Pasta con albahaca</p>
-                <p><strong>Dificultad:</strong> baja <strong>Cocina:</strong> italiana <strong>Vegetariana:</strong> sí <strong>Celíacos:</strong> no <strong>Anticáncer:</strong> no</p>
-                <p><strong>Autor:</strong> Clara</p>
-                <div class="recipe-icons">
-                    <span class="icon-favorite">⭐</span>
-                    <span class="icon-print">🖨️</span>
-                    <span class="icon-pdf">📄</span>
-                </div>
-            </div>
-
-            <!-- Botones de paginación -->
-            <div class="pagination">
-                <button>Anterior</button>
-                <button>Siguiente</button>
-            </div>
-        </section>
-    </div>
+    <!-- Pie de página -->
+    <footer>
+        <a class="pie" href="https://www.facebook.com/">FACEBOOK</a>
+        <a class="pie" href="https://x.com/">TWITTER</a>
+        <a class="pie" href="https://www.instagram.com/">INSTAGRAM</a>
+        <a class="pie" href="https://www.instagram.com/">PINTEREST</a>
+        <a class="pie" href="https://mail.google.com/">EMAIL</a>
+        <a class="pie" href="https://rss.com/">RSS</a>
+    </footer>
 </body>
 </html>

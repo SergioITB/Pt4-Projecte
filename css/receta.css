@@ -98,15 +98,18 @@ header nav a:hover {
 }
 
 .icon-favorite {
-    background-image: url('favorite-icon.png'); /* Icono de favorito */
+    font-size: 30px; /* Icono de favorito */
+    padding: 5px;
 }
 
 .icon-print {
-    background-image: url('print-icon.png'); /* Icono de impresión */
+    font-size: 30px; /* Icono de impresión */
+    padding: 5px;
 }
 
 .icon-pdf {
-    background-image: url('pdf-icon.png'); /* Icono de PDF */
+    font-size: 30px; /* Icono de PDF */
+    padding: 5px;
 }
 
 /* Botones de paginación */

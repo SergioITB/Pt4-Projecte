@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
 }
 
 body {
@@ -55,15 +54,16 @@ nav ul li a {
     line-height: 3;
 }
 
-/* Sección "Otras Cosas" */
-.otras-cosas {
-    padding: 20px;
-    background-color: #f9f9f9; 
-    margin-left: 100px; 
-    margin-right: 100px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-
+main {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    gap: 20px;
+    padding: 0 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    background-color: white;
 }
+
 /* Título principal de la página "Otras Cosas" */
 .otras-cosas h2 {
     color: #333;
@@ -95,6 +95,36 @@ nav ul li a {
 /* Estilo para cada subsección de la página "Otras Cosas" */
 .bienestar, .eventos, .colaboraciones, .blog {
     margin-top: 30px;
+}
+
+/* Estilos para imágenes alineadas a la izquierda y derecha */
+
+.parrafo-con-imagen {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.imagen-izquierda {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+    margin-left: 10px;
+    border-radius: 20%; /* Borde redondeado */
+    border: 2px solid black; 
+}
+
+.imagen-derecha {
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+    margin-left: 20px;
+    border-radius: 20%; /* Borde redondeado */
+    border: 2px solid black; 
+}
+
+.parrafo-con-imagen div {
+    flex: 1;
 }
 
 /* Pie de página */

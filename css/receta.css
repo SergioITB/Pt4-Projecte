@@ -7,7 +7,6 @@ body {
     flex-direction: column; /* Alinea los elementos en columna */
     min-height: 100%; /* Asegura que el body ocupe al menos el 100% de la altura de la ventana */
     margin: 0;
-    background-image:url(../imatges/barritas.jpg);
 }
 
 .container {
@@ -19,24 +18,48 @@ body {
     background-color: white
 }
 
+/* Encabezado */
 header {
-    width: 60%; /* Ajusta el ancho del contenedor */
-    max-width: 1200px; /* Ancho máximo del contenedor */
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    background-color: green;
+    margin-top: 20px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    min-width: 100%;
+    
 }
 
-header nav a {
-    color: white;
-    margin: 0 10px;
+header .logo img {
+    width: 350px; /* Ajusta el tamaño según sea necesario */
+}
+
+header .logo p {
+    font-size: 14px;
+    margin: 5px 0 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    border-top: 2px solid rgb(226, 226, 205);
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
     text-decoration: none;
+    color: #000000;
     font-weight: bold;
 }
 
-header nav a:hover {
-    text-decoration: underline;
+.indice {
+    color: black;
+    font-size: 16px;
+    line-height: 3;
 }
 
 .breadcrumb {
@@ -130,4 +153,29 @@ header nav a:hover {
 
 .pagination button:hover {
     background-color: #004d00;
+}
+/* Pie de página */
+footer {
+    background-color: #333; 
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    word-spacing: 30px;
+    flex: auto;
+    min-width: 100%;
+}
+.pie {
+    color: white;
+    font-size: 14px;
+    margin: 5px 0 0;
+    text-decoration: none;
+}
+
+/* Enlaces */
+a:visited {
+    color: lightblue;
+}
+a:hover {
+    color: #7ABA96;
 }

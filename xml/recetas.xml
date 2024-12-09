@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recipes>
+    <recipe id="1">
+        <title>Ensalada de quinoa con aguacate y mango</title>
+        <ingredients>
+            <ingredient>200 g de quinoa</ingredient>
+            <ingredient>1 aguacate</ingredient>
+            <ingredient>1 mango</ingredient>
+            <ingredient>1 pimiento rojo</ingredient>
+            <ingredient>50 g de nueces</ingredient>
+            <ingredient>2 cucharadas de aceite de oliva</ingredient>
+            <ingredient>1 cucharada de vinagre balsámico</ingredient>
+            <ingredient>Sal y pimienta al gusto</ingredient>
+        </ingredients>
+        <time>
+            <prep>10 minutos</prep>
+            <cook>15 minutos</cook>
+            <total>25 minutos</total>
+            <servings>4</servings>
+        </time>
+        <steps>
+            <step>Lavar la quinoa y cocerla según las instrucciones del paquete.</step>
+            <step>Pelar y cortar en cubos el aguacate y el mango.</step>
+            <step>Picar el pimiento rojo y las nueces.</step>
+            <step>Mezclar todos los ingredientes en un bol.</step>
+            <step>Aliñar con aceite de oliva, vinagre balsámico, sal y pimienta.</step>
+        </steps>
+        <media>
+            <image src="../imatges/ensalada_quinoa.jpg" alt="Ensalada de quinoa" />
+        </media>
+    </recipe>
+    <recipe id="2">
+        <title>Pollo al curry con arroz basmati</title>
+        <ingredients>
+            <ingredient>2 pechugas de pollo</ingredient>
+            <ingredient>200 ml de leche de coco</ingredient>
+            <ingredient>2 cucharadas de curry en polvo</ingredient>
+            <ingredient>1 cebolla</ingredient>
+            <ingredient>2 dientes de ajo</ingredient>
+            <ingredient>200 g de arroz basmati</ingredient>
+            <ingredient>1 cucharada de aceite de oliva</ingredient>
+            <ingredient>Sal y pimienta al gusto</ingredient>
+        </ingredients>
+        <time>
+            <prep>15 minutos</prep>
+            <cook>25 minutos</cook>
+            <total>40 minutos</total>
+            <servings>4</servings>
+        </time>
+        <steps>
+            <step>Picar la cebolla y los ajos.</step>
+            <step>Cortar el pollo en trozos pequeños y salpimentarlo.</step>
+            <step>Sofreír la cebolla y los ajos en aceite de oliva.</step>
+            <step>Añadir el pollo y cocinar hasta que esté dorado.</step>
+            <step>Incorporar el curry y la leche de coco. Cocinar a fuego lento.</step>
+            <step>Cocer el arroz basmati según las instrucciones del paquete.</step>
+            <step>Servir el pollo al curry sobre el arroz.</step>
+        </steps>
+        <media>
+            <image src="../imatges/pollo_curry.jpg" alt="Pollo al curry" />
+        </media>
+    </recipe>
+    <recipe id="3">
+        <title>Lasaña de berenjena y queso ricotta</title>
+        <ingredients>
+            <ingredient>3 berenjenas</ingredient>
+            <ingredient>250 g de queso ricotta</ingredient>
+            <ingredient>100 g de queso parmesano</ingredient>
+            <ingredient>400 g de salsa de tomate</ingredient>
+            <ingredient>2 dientes de ajo</ingredient>
+            <ingredient>1 cucharada de aceite de oliva</ingredient>
+            <ingredient>Sal y pimienta al gusto</ingredient>
+            <ingredient>Hojas de albahaca</ingredient>
+        </ingredients>
+        <time>
+            <prep>20 minutos</prep>
+            <cook>30 minutos</cook>
+            <total>50 minutos</total>
+            <servings>4</servings>
+        </time>
+        <steps>
+            <step>Cortar las berenjenas en láminas finas y asarlas en el horno.</step>
+            <step>Sofreír los ajos picados en aceite de oliva.</step>
+            <step>Añadir la salsa de tomate, salpimentar y cocinar 10 minutos.</step>
+            <step>Montar la lasaña alternando capas de berenjena, ricotta, tomate y parmesano.</step>
+            <step>Hornear a 180°C durante 20 minutos.</step>
+            <step>Decorar con hojas de albahaca.</step>
+        </steps>
+        <media>
+            <image src="../imatges/lasagna.jpg" alt="Lasaña de berenjena" />
+        </media>
+    </recipe>
+    <recipe id="4">
+        <title>Sopa de tomate y albahaca</title>
+        <ingredients>
+            <ingredient>1 kg de tomates maduros</ingredient>
+            <ingredient>1 cebolla</ingredient>
+            <ingredient>2 dientes de ajo</ingredient>
+            <ingredient>500 ml de caldo de verduras</ingredient>
+            <ingredient>2 cucharadas de aceite de oliva</ingredient>
+            <ingredient>Hojas de albahaca fresca</ingredient>
+            <ingredient>Sal y pimienta al gusto</ingredient>
+        </ingredients>
+        <time>
+            <prep>10 minutos</prep>
+            <cook>20 minutos</cook>
+            <total>30 minutos</total>
+            <servings>4</servings>
+        </time>
+        <steps>
+            <step>Pelar y picar los tomates, la cebolla y los ajos.</step>
+            <step>Sofreír la cebolla y los ajos en aceite de oliva.</step>
+            <step>Añadir los tomates y cocinar 10 minutos.</step>
+            <step>Incorporar el caldo de verduras y cocinar 10 minutos más.</step>
+            <step>Batir la sopa hasta obtener una textura homogénea.</step>
+            <step>Servir con hojas de albahaca fresca.</step>
+        </steps>
+        <media>
+            <image src="../imatges/sopa_tomate.jpg" alt="Sopa de tomate" />
+        </media>
+    </recipe>
+</recipes>

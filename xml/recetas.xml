@@ -58,3 +58,401 @@
             <image src="../imatges/base_pizza.jpg" alt="Base de pizza" />
         </media>
     </recipe>
+    <recipe id="3">
+        <title>Espaguetis a la Carbonara</title>
+        <ingredients>
+            <ingredient>400 g de espaguetis</ingredient>
+            <ingredient>200 g de panceta</ingredient>
+            <ingredient>2 huevos</ingredient>
+            <ingredient>100 g de queso parmesano</ingredient>
+            <ingredient>Sal y pimienta al gusto</ingredient>
+        </ingredients>
+        <time>
+            <prep>10 minutos</prep>
+            <cook>15 minutos</cook>
+            <total>25 minutos</total>
+            <servings>4</servings>
+        </time>
+        <steps>
+            <step>Cocer los espaguetis en agua con sal hasta que estén al dente.</step>
+            <step>Freír la panceta en una sartén sin aceite.</step>
+            <step>Batir los huevos y mezclarlos con el queso rallado.</step>
+            <step>Escurrir los espaguetis y mezclarlos con la panceta.</step>
+            <step>Agregar la mezcla de huevos y queso, removiendo rápidamente para que no cuajen.</step>
+            <step>Ajustar de sal y pimienta y servir.</step>
+        </steps>
+        <media>
+            <image src="../imatges/carbonara.jpg" alt="Espaguetis a la Carbonara" />
+        </media>
+    </recipe>
+    <recipe id="4">
+        <title>Fettuccine Alfredo</title>
+        <ingredients>
+            <ingredient>400 g de fettuccine</ingredient>
+            <ingredient>200 ml de crema de leche</ingredient>
+            <ingredient>100 g de mantequilla</ingredient>
+            <ingredient>100 g de queso parmesano</ingredient>
+            <ingredient>Sal y pimienta al gusto</ingredient>
+        </ingredients>
+        <time>
+            <prep>5 minutos</prep>
+            <cook>15 minutos</cook>
+            <total>20 minutos</total>
+            <servings>4</servings>
+        </time>
+        <steps>
+            <step>Cocer los fettuccine en agua con sal hasta que estén al dente.</step>
+            <step>Derretir la mantequilla en una sartén.</step>
+            <step>Añadir la crema de leche y el queso parmesano, mezclando bien.</step>
+            <step>Incorporar los fettuccine y mezclar para cubrir con la salsa.</step>
+            <step>Ajustar de sal y pimienta y servir caliente.</step>
+        </steps>
+        <media>
+            <image src="../imatges/alfredo.jpg" alt="Fettuccine Alfredo" />
+        </media>
+    </recipe>
+    <recipe id="5">
+        <title>Lasagna</title>
+        <ingredients>
+            <ingredient>12 láminas de pasta para lasaña</ingredient>
+            <ingredient>500 g de carne picada</ingredient>
+            <ingredient>500 g de salsa de tomate</ingredient>
+            <ingredient>1 cebolla</ingredient>
+            <ingredient>2 dientes de ajo</ingredient>
+            <ingredient>200 g de queso ricotta</ingredient>
+            <ingredient>200 g de queso mozzarella</ingredient>
+            <ingredient>50 g de queso parmesano</ingredient>
+            <ingredient>2 cucharadas de aceite de oliva</ingredient>
+            <ingredient>Sal y pimienta al gusto</ingredient>
+        </ingredients>
+        <time>
+            <prep>20 minutos</prep>
+            <cook>40 minutos</cook>
+            <total>1 hora</total>
+            <servings>6</servings>
+        </time>
+        <steps>
+            <step>Sofreír la cebolla y el ajo picados en aceite de oliva.</step>
+            <step>Añadir la carne picada, salpimentar y cocinar hasta que esté dorada.</step>
+            <step>Incorporar la salsa de tomate y cocinar durante 10 minutos.</step>
+            <step>En una bandeja, montar capas alternas de láminas de pasta, carne, ricotta y mozzarella.</step>
+            <step>Repetir hasta terminar con una capa de pasta cubierta de mozzarella y parmesano.</step>
+            <step>Hornear a 180°C durante 30-40 minutos.</step>
+        </steps>
+        <media>
+            <image src="../imatges/lasagna.jpg" alt="Lasagna" />
+        </media>
+    </recipe>
+    <recipe id="6">
+        <title>Macarrones con queso</title>
+        <ingredients>
+            <ingredient>400 g de macarrones</ingredient>
+            <ingredient>200 ml de leche</ingredient>
+            <ingredient>200 g de queso cheddar</ingredient>
+            <ingredient>100 g de queso parmesano</ingredient>
+            <ingredient>50 g de mantequilla</ingredient>
+            <ingredient>2 cucharadas de harina</ingredient>
+            <ingredient>Sal y pimienta al gusto</ingredient>
+        </ingredients>
+        <time>
+            <prep>10 minutos</prep>
+            <cook>20 minutos</cook>
+            <total>30 minutos</total>
+            <servings>4</servings>
+        </time>
+        <steps>
+            <step>Cocer los macarrones en agua con sal hasta que estén al dente.</step>
+            <step>Derretir la mantequilla en una sartén y añadir la harina, removiendo bien.</step>
+            <step>Incorporar la leche poco a poco hasta formar una bechamel.</step>
+            <step>Agregar los quesos rallados y mezclar hasta que se derritan.</step>
+            <step>Incorporar los macarrones a la salsa y mezclar bien.</step>
+            <step>Servir caliente.</step>
+        </steps>
+        <media>
+            <image src="../imatges/macarrones_queso.jpg" alt="Macarrones con queso" />
+        </media>
+    </recipe>
+    <recipe id="7">
+        <title>Pasta al pesto</title>
+        <ingredients>
+            <ingredient>400 g de pasta</ingredient>
+            <ingredient>100 g de albahaca fresca</ingredient>
+            <ingredient>50 g de piñones</ingredient>
+            <ingredient>2 dientes de ajo</ingredient>
+            <ingredient>100 g de queso parmesano</ingredient>
+            <ingredient>100 ml de aceite de oliva</ingredient>
+            <ingredient>Sal y pimienta al gusto</ingredient>
+        </ingredients>
+        <time>
+            <prep>10 minutos</prep>
+            <cook>10 minutos</cook>
+            <total>20 minutos</total>
+            <servings>4</servings>
+        </time>
+        <steps>
+            <step>Cocer la pasta en agua con sal hasta que esté al dente.</step>
+            <step>En un mortero o procesador, triturar la albahaca, piñones, ajo y queso parmesano.</step>
+            <step>Añadir el aceite de oliva poco a poco hasta obtener una pasta homogénea.</step>
+            <step>Mezclar la pasta cocida con el pesto y servir.</step>
+        </steps>
+        <media>
+            <image src="../imatges/pasta_pesto.jpg" alt="Pasta al pesto" />
+        </media>
+    </recipe>
+    <recipe id="8">
+        <title>Raviolis de espinaca</title>
+        <ingredients>
+            <ingredient>400 g de raviolis rellenos de espinaca</ingredient>
+            <ingredient>200 ml de nata para cocinar</ingredient>
+            <ingredient>50 g de queso parmesano</ingredient>
+            <ingredient>Nuez moscada al gusto</ingredient>
+            <ingredient>Sal y pimienta al gusto</ingredient>
+        </ingredients>
+        <time>
+            <prep>5 minutos</prep>
+            <cook>10 minutos</cook>
+            <total>15 minutos</total>
+            <servings>4</servings>
+        </time>
+        <steps>
+            <step>Cocer los raviolis en agua con sal según las instrucciones del paquete.</step>
+            <step>Calentar la nata en una sartén a fuego medio.</step>
+            <step>Añadir el queso parmesano y nuez moscada, removiendo hasta que se integren.</step>
+            <step>Incorporar los raviolis escurridos y mezclar bien.</step>
+            <step>Servir caliente con queso parmesano adicional.</step>
+        </steps>
+        <media>
+            <image src="../imatges/raviolis_espinaca.jpg" alt="Raviolis de espinaca" />
+        </media>
+    </recipe>
+    <recipe id="9">
+        <title>Tallarines con mariscos</title>
+        <ingredients>
+            <ingredient>400 g de tallarines</ingredient>
+            <ingredient>300 g de mezcla de mariscos</ingredient>
+            <ingredient>2 dientes de ajo</ingredient>
+            <ingredient>1 guindilla</ingredient>
+            <ingredient>100 ml de vino blanco</ingredient>
+            <ingredient>3 cucharadas de aceite de oliva</ingredient>
+            <ingredient>Perejil fresco picado</ingredient>
+            <ingredient>Sal y pimienta al gusto</ingredient>
+        </ingredients>
+        <time>
+            <prep>10 minutos</prep>
+            <cook>15 minutos</cook>
+            <total>25 minutos</total>
+            <servings>4</servings>
+        </time>
+        <steps>
+            <step>Cocer los tallarines en agua con sal hasta que estén al dente.</step>
+            <step>Sofreír los ajos picados y la guindilla en aceite de oliva.</step>
+            <step>Añadir los mariscos y cocinar durante 5 minutos.</step>
+            <step>Incorporar el vino blanco y dejar reducir.</step>
+            <step>Mezclar los tallarines con los mariscos y el perejil picado.</step>
+            <step>Servir caliente.</step>
+        </steps>
+        <media>
+            <image src="../imatges/tallarines_mariscos.jpg" alt="Tallarines con mariscos" />
+        </media>
+    </recipe>
+    <recipe id="10">
+        <title>Pasta primavera</title>
+        <ingredients>
+            <ingredient>400 g de pasta</ingredient>
+            <ingredient>1 calabacín</ingredient>
+            <ingredient>1 pimiento rojo</ingredient>
+            <ingredient>1 zanahoria</ingredient>
+            <ingredient>100 g de guisantes</ingredient>
+            <ingredient>100 ml de nata para cocinar</ingredient>
+            <ingredient>2 cucharadas de aceite de oliva</ingredient>
+            <ingredient>Sal y pimienta al gusto</ingredient>
+        </ingredients>
+        <time>
+            <prep>10 minutos</prep>
+            <cook>15 minutos</cook>
+            <total>25 minutos</total>
+            <servings>4</servings>
+        </time>
+        <steps>
+            <step>Cortar las verduras en tiras finas.</step>
+            <step>Sofreír las verduras en aceite de oliva hasta que estén tiernas.</step>
+            <step>Cocer la pasta en agua con sal hasta que esté al dente.</step>
+            <step>Añadir la nata a las verduras y mezclar bien.</step>
+            <step>Incorporar la pasta escurrida a la salsa y mezclar.</step>
+            <step>Servir caliente.</step>
+        </steps>
+        <media>
+            <image src="../imatges/pasta_primavera.jpg" alt="Pasta primavera" />
+        </media>
+    </recipe>
+    <recipe id="11">
+        <title>Spaghetti Bolognese</title>
+        <ingredients>
+            <ingredient>400 g de espaguetis</ingredient>
+            <ingredient>500 g de carne picada</ingredient>
+            <ingredient>1 cebolla</ingredient>
+            <ingredient>2 dientes de ajo</ingredient>
+            <ingredient>500 g de salsa de tomate</ingredient>
+            <ingredient>1 zanahoria</ingredient>
+            <ingredient>2 cucharadas de aceite de oliva</ingredient>
+            <ingredient>Sal y pimienta al gusto</ingredient>
+        </ingredients>
+        <time>
+            <prep>10 minutos</prep>
+            <cook>25 minutos</cook>
+            <total>35 minutos</total>
+            <servings>4</servings>
+        </time>
+        <steps>
+            <step>Cortar la cebolla, el ajo y la zanahoria en trozos pequeños.</step>
+            <step>Sofreír las verduras en aceite de oliva hasta que estén tiernas.</step>
+            <step>Añadir la carne picada, salpimentar y cocinar hasta que esté dorada.</step>
+            <step>Incorporar la salsa de tomate y cocinar durante 15 minutos.</step>
+            <step>Cocer los espaguetis en agua con sal hasta que estén al dente.</step>
+            <step>Servir la salsa sobre los espaguetis y decorar con queso parmesano.</step>
+        </steps>
+        <media>
+            <image src="../imatges/spaghetti_bolognese.jpg" alt="Spaghetti Bolognese" />
+        </media>
+    </recipe>
+    <recipe id="12">
+        <title>Pasta con salsa de tomate</title>
+        <ingredients>
+            <ingredient>400 g de pasta</ingredient>
+            <ingredient>500 g de tomates maduros</ingredient>
+            <ingredient>2 dientes de ajo</ingredient>
+            <ingredient>3 cucharadas de aceite de oliva</ingredient>
+            <ingredient>Albahaca fresca</ingredient>
+            <ingredient>Sal y pimienta al gusto</ingredient>
+        </ingredients>
+        <time>
+            <prep>10 minutos</prep>
+            <cook>15 minutos</cook>
+            <total>25 minutos</total>
+            <servings>4</servings>
+        </time>
+        <steps>
+            <step>Pelar y cortar los tomates en trozos pequeños.</step>
+            <step>Sofreír los ajos picados en aceite de oliva.</step>
+            <step>Añadir los tomates y cocinar hasta que se deshagan.</step>
+            <step>Cocer la pasta en agua con sal hasta que esté al dente.</step>
+            <step>Mezclar la pasta con la salsa de tomate y decorar con albahaca fresca.</step>
+            <step>Servir caliente.</step>
+        </steps>
+        <media>
+            <image src="../imatges/pasta_salsa_tomate.jpg" alt="Pasta con salsa de tomate" />
+        </media>
+    </recipe>
+    <recipe id="13">
+        <title>Ensalada de pasta</title>
+        <ingredients>
+            <ingredient>400 g de pasta corta</ingredient>
+            <ingredient>100 g de aceitunas</ingredient>
+            <ingredient>150 g de tomates cherry</ingredient>
+            <ingredient>100 g de queso feta</ingredient>
+            <ingredient>50 g de rúcula</ingredient>
+            <ingredient>3 cucharadas de aceite de oliva</ingredient>
+            <ingredient>1 cucharada de vinagre balsámico</ingredient>
+            <ingredient>Sal y pimienta al gusto</ingredient>
+        </ingredients>
+        <time>
+            <prep>10 minutos</prep>
+            <cook>10 minutos</cook>
+            <total>20 minutos</total>
+            <servings>4</servings>
+        </time>
+        <steps>
+            <step>Cocer la pasta en agua con sal hasta que esté al dente y enfriar.</step>
+            <step>Cortar los tomates cherry por la mitad y el queso feta en cubos.</step>
+            <step>Mezclar todos los ingredientes en un bol grande.</step>
+            <step>Aliñar con aceite de oliva, vinagre balsámico, sal y pimienta.</step>
+            <step>Servir frío.</step>
+        </steps>
+        <media>
+            <image src="../imatges/ensalada_pasta.jpg" alt="Ensalada de pasta" />
+        </media>
+    </recipe>
+    <recipe id="14">
+        <title>Pasta con champiñones</title>
+        <ingredients>
+            <ingredient>400 g de pasta</ingredient>
+            <ingredient>300 g de champiñones</ingredient>
+            <ingredient>1 diente de ajo</ingredient>
+            <ingredient>200 ml de nata para cocinar</ingredient>
+            <ingredient>2 cucharadas de aceite de oliva</ingredient>
+            <ingredient>Perejil fresco picado</ingredient>
+            <ingredient>Sal y pimienta al gusto</ingredient>
+        </ingredients>
+        <time>
+            <prep>10 minutos</prep>
+            <cook>15 minutos</cook>
+            <total>25 minutos</total>
+            <servings>4</servings>
+        </time>
+        <steps>
+            <step>Cortar los champiñones en láminas y picar el ajo.</step>
+            <step>Sofreír los champiñones y el ajo en aceite de oliva.</step>
+            <step>Añadir la nata, salpimentar y cocinar a fuego lento.</step>
+            <step>Cocer la pasta en agua con sal hasta que esté al dente.</step>
+            <step>Mezclar la pasta con la salsa de champiñones y decorar con perejil.</step>
+            <step>Servir caliente.</step>
+        </steps>
+        <media>
+            <image src="../imatges/pasta_champinones.jpg" alt="Pasta con champiñones" />
+        </media>
+    </recipe>
+    <recipe id="15">
+        <title>Pasta con espárragos</title>
+        <ingredients>
+            <ingredient>400 g de pasta</ingredient>
+            <ingredient>300 g de espárragos verdes</ingredient>
+            <ingredient>1 diente de ajo</ingredient>
+            <ingredient>2 cucharadas de aceite de oliva</ingredient>
+            <ingredient>50 g de queso parmesano</ingredient>
+            <ingredient>Sal y pimienta al gusto</ingredient>
+        </ingredients>
+        <time>
+            <prep>10 minutos</prep>
+            <cook>15 minutos</cook>
+            <total>25 minutos</total>
+            <servings>4</servings>
+        </time>
+        <steps>
+            <step>Cortar los espárragos en trozos pequeños.</step>
+            <step>Sofreír los espárragos y el ajo picado en aceite de oliva.</step>
+            <step>Cocer la pasta en agua con sal hasta que esté al dente.</step>
+            <step>Mezclar la pasta con los espárragos y decorar con queso parmesano.</step>
+            <step>Servir caliente.</step>
+        </steps>
+        <media>
+            <image src="../imatges/pasta_esparragos.jpg" alt="Pasta con espárragos" />
+        </media>
+    </recipe>
+    <recipe id="16">
+        <title>Pasta con albahaca</title>
+        <ingredients>
+            <ingredient>400 g de pasta</ingredient>
+            <ingredient>50 g de hojas de albahaca fresca</ingredient>
+            <ingredient>50 g de queso parmesano</ingredient>
+            <ingredient>50 g de piñones</ingredient>
+            <ingredient>100 ml de aceite de oliva</ingredient>
+            <ingredient>2 dientes de ajo</ingredient>
+            <ingredient>Sal y pimienta al gusto</ingredient>
+        </ingredients>
+        <time>
+            <prep>10 minutos</prep>
+            <cook>10 minutos</cook>
+            <total>20 minutos</total>
+            <servings>4</servings>
+        </time>
+        <steps>
+            <step>Triturar las hojas de albahaca, el queso parmesano, los piñones y el ajo con el aceite de oliva hasta obtener un pesto.</step>
+            <step>Cocer la pasta en agua con sal hasta que esté al dente.</step>
+            <step>Mezclar la pasta con el pesto y ajustar la sal y pimienta.</step>
+            <step>Servir caliente.</step>
+        </steps>
+        <media>
+            <image src="../imatges/pasta_albahaca.jpg" alt="Pasta con albahaca" />
+        </media>
+    </recipe>
+</recipes>

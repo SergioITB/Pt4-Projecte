@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <recipes>
-    <recipe id="1">
+    <recipe id="arroz_negro">
         <title>arroz_negro</title>
         <ingredients>
             <ingredient>300 g de arroz</ingredient>
@@ -453,6 +453,302 @@
         </steps>
         <media>
             <image src="../imatges/pasta_albahaca.jpg" alt="Pasta con albahaca" />
+        </media>
+    </recipe>
+    <recipe id="pasta_atun">
+        <title>Pasta con atún</title>
+        <ingredients>
+            <ingredient>400 g de pasta</ingredient>
+            <ingredient>2 latas de atún en aceite</ingredient>
+            <ingredient>1 cebolla</ingredient>
+            <ingredient>400 g de tomate triturado</ingredient>
+            <ingredient>2 cucharadas de aceite de oliva</ingredient>
+            <ingredient>Sal y pimienta al gusto</ingredient>
+        </ingredients>
+        <time>
+            <prep>5 minutos</prep>
+            <cook>15 minutos</cook>
+            <total>20 minutos</total>
+            <servings>4</servings>
+        </time>
+        <steps>
+            <step>Sofreír la cebolla picada en aceite de oliva.</step>
+            <step>Añadir el tomate triturado y cocinar durante 10 minutos.</step>
+            <step>Incorporar el atún escurrido y mezclar.</step>
+            <step>Cocer la pasta y mezclar con la salsa.</step>
+            <step>Servir caliente.</step>
+        </steps>
+        <media>
+            <image src="../imatges/pasta_atun.jpg" alt="Pasta con atún" />
+        </media>
+    </recipe>
+    <recipe id="canelones_espinacas_ricota">
+        <title>Canelones rellenos de espinacas y ricota</title>
+        <ingredients>
+            <ingredient>12 canelones</ingredient>
+            <ingredient>200 g de espinacas</ingredient>
+            <ingredient>200 g de queso ricota</ingredient>
+            <ingredient>500 ml de salsa bechamel</ingredient>
+            <ingredient>100 g de queso rallado</ingredient>
+            <ingredient>Sal y pimienta al gusto</ingredient>
+        </ingredients>
+        <time>
+            <prep>20 minutos</prep>
+            <cook>30 minutos</cook>
+            <total>50 minutos</total>
+            <servings>4</servings>
+        </time>
+        <steps>
+            <step>Saltear las espinacas y mezclarlas con la ricota, salpimentar.</step>
+            <step>Rellenar los canelones con la mezcla.</step>
+            <step>Colocar en una bandeja, cubrir con bechamel y queso rallado.</step>
+            <step>Hornear a 180 °C durante 30 minutos.</step>
+            <step>Servir caliente.</step>
+        </steps>
+        <media>
+            <image src="../imatges/canelones_espinacas_ricota.jpg" alt="Canelones rellenos de espinacas y ricota" />
+        </media>
+    </recipe>
+    <recipe id="pasta_gambas_ajillo">
+        <title>Pasta con gambas al ajillo</title>
+        <ingredients>
+            <ingredient>400 g de pasta</ingredient>
+            <ingredient>300 g de gambas</ingredient>
+            <ingredient>4 dientes de ajo</ingredient>
+            <ingredient>3 cucharadas de aceite de oliva</ingredient>
+            <ingredient>1 guindilla</ingredient>
+            <ingredient>Perejil fresco picado</ingredient>
+            <ingredient>Sal y pimienta al gusto</ingredient>
+        </ingredients>
+        <time>
+            <prep>5 minutos</prep>
+            <cook>15 minutos</cook>
+            <total>20 minutos</total>
+            <servings>4</servings>
+        </time>
+        <steps>
+            <step>Cocer la pasta en agua con sal hasta que esté al dente.</step>
+            <step>Sofreír el ajo laminado y la guindilla en aceite de oliva.</step>
+            <step>Añadir las gambas y cocinar hasta que estén rosadas.</step>
+            <step>Mezclar la pasta con las gambas y el perejil.</step>
+            <step>Servir caliente.</step>
+        </steps>
+        <media>
+            <image src="../imatges/pasta_gambas_ajillo.jpg" alt="Pasta con gambas al ajillo" />
+        </media>
+    </recipe>
+    <recipe id="paella_valenciana">
+        <title>Paella Valenciana</title>
+        <ingredients>
+            <ingredient>300 g de arroz</ingredient>
+            <ingredient>200 g de pollo troceado</ingredient>
+            <ingredient>200 g de conejo troceado</ingredient>
+            <ingredient>1 tomate</ingredient>
+            <ingredient>1 pimiento rojo</ingredient>
+            <ingredient>200 g de judía verde</ingredient>
+            <ingredient>800 ml de caldo de pollo</ingredient>
+            <ingredient>1 ramita de romero</ingredient>
+            <ingredient>2 cucharadas de aceite de oliva</ingredient>
+            <ingredient>Azafrán</ingredient>
+            <ingredient>Sal al gusto</ingredient>
+        </ingredients>
+        <time>
+            <prep>20 minutos</prep>
+            <cook>40 minutos</cook>
+            <total>1 hora</total>
+            <servings>4</servings>
+        </time>
+        <steps>
+            <step>Trocear el pollo y conejo en pedazos pequeños.</step>
+            <step>Sofreír la carne en una paellera con aceite de oliva.</step>
+            <step>Incorporar las verduras picadas y cocinar durante unos minutos.</step>
+            <step>Agregar el arroz, el tomate picado y el caldo caliente.</step>
+            <step>Condimentar con el romero, azafrán y sal al gusto.</step>
+            <step>Cocinar a fuego medio hasta que el arroz esté en su punto.</step>
+            <step>Servir caliente.</step>
+        </steps>
+        <media>
+            <image src="../imatges/paella_valenciana.jpg" alt="Paella Valenciana" />
+        </media>
+    </recipe>
+    <recipe id="cuscus_vegetariano">
+        <title>Cuscús Vegetariano</title>
+        <ingredients>
+            <ingredient>200 g de cuscús</ingredient>
+            <ingredient>1 calabacín</ingredient>
+            <ingredient>1 berenjena</ingredient>
+            <ingredient>1 pimiento rojo</ingredient>
+            <ingredient>100 g de garbanzos cocidos</ingredient>
+            <ingredient>1 cebolla</ingredient>
+            <ingredient>2 cucharadas de aceite de oliva</ingredient>
+            <ingredient>1 cucharadita de comino</ingredient>
+            <ingredient>Sal y pimienta al gusto</ingredient>
+        </ingredients>
+        <time>
+            <prep>15 minutos</prep>
+            <cook>20 minutos</cook>
+            <total>35 minutos</total>
+            <servings>4</servings>
+        </time>
+        <steps>
+            <step>Picar todas las verduras en trozos pequeños.</step>
+            <step>Sofreír la cebolla y el pimiento en aceite de oliva.</step>
+            <step>Añadir el calabacín y la berenjena, y cocinar hasta que estén tiernos.</step>
+            <step>Incorporar los garbanzos cocidos, el comino, sal y pimienta.</step>
+            <step>Cocer el cuscús según las instrucciones del paquete.</step>
+            <step>Mezclar el cuscús con las verduras y servir caliente.</step>
+        </steps>
+        <media>
+            <image src="../imatges/cuscus_vegetariano.jpg" alt="Cuscús Vegetariano" />
+        </media>
+    </recipe>
+    <recipe id="tacos_de_pollo">
+        <title>Tacos de Pollo</title>
+        <ingredients>
+            <ingredient>500 g de pechuga de pollo</ingredient>
+            <ingredient>8 tortillas de maíz</ingredient>
+            <ingredient>1 cebolla morada</ingredient>
+            <ingredient>1 pimiento verde</ingredient>
+            <ingredient>1 aguacate</ingredient>
+            <ingredient>1 tomate</ingredient>
+            <ingredient>1 limón</ingredient>
+            <ingredient>1 cucharadita de comino</ingredient>
+            <ingredient>Sal y pimienta al gusto</ingredient>
+            <ingredient>Salsa al gusto</ingredient>
+        </ingredients>
+        <time>
+            <prep>10 minutos</prep>
+            <cook>20 minutos</cook>
+            <total>30 minutos</total>
+            <servings>4</servings>
+        </time>
+        <steps>
+            <step>Cortar el pollo en tiras y sazonarlo con comino, sal y pimienta.</step>
+            <step>Saltear el pollo en una sartén con aceite de oliva hasta que esté cocido.</step>
+            <step>Calentar las tortillas en una sartén.</step>
+            <step>Preparar los vegetales: cortar la cebolla, el pimiento, el tomate y el aguacate en trozos pequeños.</step>
+            <step>Rellenar las tortillas con el pollo y los vegetales.</step>
+            <step>Exprimir el limón sobre los tacos y añadir salsa al gusto.</step>
+            <step>Servir caliente.</step>
+        </steps>
+        <media>
+            <image src="../imatges/tacos_de_pollo.jpg" alt="Tacos de Pollo" />
+        </media>
+    </recipe>
+    <recipe id="ensalada_caprese">
+        <title>Ensalada Caprese</title>
+        <ingredients>
+            <ingredient>2 tomates maduros</ingredient>
+            <ingredient>200 g de mozzarella fresca</ingredient>
+            <ingredient>Hojas de albahaca</ingredient>
+            <ingredient>Aceite de oliva virgen extra</ingredient>
+            <ingredient>Vinagre balsámico</ingredient>
+            <ingredient>Sal y pimienta al gusto</ingredient>
+        </ingredients>
+        <time>
+            <prep>10 minutos</prep>
+            <cook>0 minutos</cook>
+            <total>10 minutos</total>
+            <servings>2</servings>
+        </time>
+        <steps>
+            <step>Cortar los tomates y la mozzarella en rodajas.</step>
+            <step>Disponer las rodajas de tomate y mozzarella alternadas en un plato.</step>
+            <step>Agregar las hojas de albahaca frescas entre las rodajas.</step>
+            <step>Aliñar con aceite de oliva, vinagre balsámico, sal y pimienta.</step>
+            <step>Servir inmediatamente.</step>
+        </steps>
+        <media>
+            <image src="../imatges/ensalada_caprese.jpg" alt="Ensalada Caprese" />
+        </media>
+    </recipe>
+    <recipe id="sopa_de_calabaza">
+        <title>Sopa de Calabaza</title>
+        <ingredients>
+            <ingredient>500 g de calabaza</ingredient>
+            <ingredient>1 cebolla</ingredient>
+            <ingredient>2 dientes de ajo</ingredient>
+            <ingredient>1 zanahoria</ingredient>
+            <ingredient>800 ml de caldo de verduras</ingredient>
+            <ingredient>1 cucharada de aceite de oliva</ingredient>
+            <ingredient>Sal y pimienta al gusto</ingredient>
+        </ingredients>
+        <time>
+            <prep>10 minutos</prep>
+            <cook>30 minutos</cook>
+            <total>40 minutos</total>
+            <servings>4</servings>
+        </time>
+        <steps>
+            <step>Picar la cebolla, ajo, zanahoria y calabaza.</step>
+            <step>Sofreír la cebolla y el ajo en aceite de oliva.</step>
+            <step>Agregar la zanahoria y calabaza y cocinar durante unos minutos.</step>
+            <step>Incorporar el caldo de verduras y cocinar a fuego lento durante 20 minutos.</step>
+            <step>Pasar la sopa por la licuadora hasta obtener una textura suave.</step>
+            <step>Servir caliente.</step>
+        </steps>
+        <media>
+            <image src="../imatges/sopa_de_calabaza.jpg" alt="Sopa de Calabaza" />
+        </media>
+    </recipe>
+    <recipe id="pollo_teriyaki">
+        <title>Pollo Teriyaki</title>
+        <ingredients>
+            <ingredient>4 pechugas de pollo</ingredient>
+            <ingredient>4 cucharadas de salsa de soja</ingredient>
+            <ingredient>2 cucharadas de miel</ingredient>
+            <ingredient>1 diente de ajo</ingredient>
+            <ingredient>1 cucharada de jengibre rallado</ingredient>
+            <ingredient>2 cucharadas de aceite de sésamo</ingredient>
+            <ingredient>1 cucharadita de sésamo tostado</ingredient>
+            <ingredient>Sal y pimienta al gusto</ingredient>
+        </ingredients>
+        <time>
+            <prep>10 minutos</prep>
+            <cook>20 minutos</cook>
+            <total>30 minutos</total>
+            <servings>4</servings>
+        </time>
+        <steps>
+            <step>Mezclar la salsa de soja, miel, ajo, jengibre y aceite de sésamo.</step>
+            <step>Marinar las pechugas de pollo en la mezcla durante 20 minutos.</step>
+            <step>Hornear o asar el pollo hasta que esté cocido.</step>
+            <step>Espolvorear con sésamo tostado antes de servir.</step>
+            <step>Servir caliente.</step>
+        </steps>
+        <media>
+            <image src="../imatges/pollo_teriyaki.jpg" alt="Pollo Teriyaki" />
+        </media>
+    </recipe>
+    <recipe id="curry_de_verduras">
+        <title>Curry de Verduras</title>
+        <ingredients>
+            <ingredient>200 g de zanahorias</ingredient>
+            <ingredient>200 g de brócoli</ingredient>
+            <ingredient>200 g de patatas</ingredient>
+            <ingredient>1 cebolla</ingredient>
+            <ingredient>1 pimiento rojo</ingredient>
+            <ingredient>1 lata de leche de coco</ingredient>
+            <ingredient>2 cucharadas de curry en polvo</ingredient>
+            <ingredient>1 cucharada de aceite de oliva</ingredient>
+            <ingredient>Sal y pimienta al gusto</ingredient>
+        </ingredients>
+        <time>
+            <prep>15 minutos</prep>
+            <cook>30 minutos</cook>
+            <total>45 minutos</total>
+            <servings>4</servings>
+        </time>
+        <steps>
+            <step>Picar todas las verduras en trozos pequeños.</step>
+            <step>Sofreír la cebolla y el pimiento en aceite de oliva.</step>
+            <step>Añadir las zanahorias, patatas y brócoli, y cocinar unos minutos.</step>
+            <step>Incorporar el curry en polvo y la leche de coco.</step>
+            <step>Cocinar a fuego lento durante 20 minutos hasta que las verduras estén tiernas.</step>
+            <step>Servir caliente.</step>
+        </steps>
+        <media>
+            <image src="../imatges/curry_de_verduras.jpg" alt="Curry de Verduras" />
         </media>
     </recipe>
 </recipes>

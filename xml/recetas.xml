@@ -1,67 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <recipes>
     <recipe id="1">
-        <title>Calabacines rellenos de arroz negro y calabaza</title>
+        <title>Arroz negro</title>
         <ingredients>
-            <ingredient>4 calabacines medianos</ingredient>
-            <ingredient>150 g de arroz negro</ingredient>
-            <ingredient>200 g de calabaza</ingredient>
-            <ingredient>1 cebolla pequeña</ingredient>
+            <ingredient>300 g de arroz</ingredient>
+            <ingredient>250 g de sepia</ingredient>
             <ingredient>2 dientes de ajo</ingredient>
-            <ingredient>2 cucharadas de aceite de oliva virgen extra</ingredient>
-            <ingredient>Sal y pimienta al gusto</ingredient>
-            <ingredient>1/2 cucharadita de cúrcuma</ingredient>
-            <ingredient>Pipas de calabaza (para decorar)</ingredient>
-            <ingredient>Hojas de perejil fresco (para decorar)</ingredient>
-        </ingredients>
-        <time>
-            <preparation>15 minutos</preparation>
-            <cooking>40 minutos</cooking>
-            <total>55 minutos</total>
-            <servings>4</servings>
-        </time>
-        <steps>
-            <step>Cortar los calabacines por la mitad, a lo largo, y vaciarlos con una cuchara. Reservar la pulpa.</step>
-            <step>Cocinar las cáscaras de calabacín al vapor durante 5 minutos. Reservar.</step>
-            <step>En una olla, hervir el arroz negro según las instrucciones del paquete. Reservar.</step>
-            <step>Picar la cebolla, los ajos y la pulpa de calabacín. Rallar la calabaza.</step>
-            <step>En una sartén grande, calentar el aceite de oliva y sofreír la cebolla y el ajo hasta que estén dorados.</step>
-            <step>Añadir la pulpa de calabacín, la calabaza rallada y la cúrcuma. Saltear durante 5-7 minutos.</step>
-            <step>Incorporar el arroz negro cocido al sofrito, mezclar bien y ajustar de sal y pimienta.</step>
-            <step>Rellenar las cáscaras de calabacín con la mezcla de arroz y calabaza.</step>
-            <step>Hornear los calabacines rellenos a 180°C durante 15 minutos.</step>
-            <step>Decorar con pipas de calabaza y hojas de perejil fresco antes de servir.</step>
-        </steps>
-        <image>../imatges/calabacines.jpg</image>
-    </recipe>
-
-    <recipe id="2">
-        <title>Ensalada de quinoa con mango y aguacate</title>
-        <ingredients>
-            <ingredient>200 g de quinoa</ingredient>
-            <ingredient>1 mango maduro</ingredient>
-            <ingredient>1 aguacate</ingredient>
-            <ingredient>1 cebolla morada pequeña</ingredient>
-            <ingredient>50 g de nueces</ingredient>
+            <ingredient>1 cebolla</ingredient>
+            <ingredient>1 pimiento rojo</ingredient>
+            <ingredient>800 ml de caldo de pescado</ingredient>
+            <ingredient>Tinta de calamar</ingredient>
             <ingredient>2 cucharadas de aceite de oliva</ingredient>
-            <ingredient>Zumo de 1 limón</ingredient>
-            <ingredient>Sal y pimienta al gusto</ingredient>
-            <ingredient>Hojas de cilantro fresco</ingredient>
+            <ingredient>Sal al gusto</ingredient>
         </ingredients>
         <time>
-            <preparation>10 minutos</preparation>
-            <cooking>20 minutos</cooking>
-            <total>30 minutos</total>
+            <prep>15 minutos</prep>
+            <cook>30 minutos</cook>
+            <total>45 minutos</total>
             <servings>4</servings>
         </time>
         <steps>
-            <step>Enjuagar la quinoa y cocinarla según las instrucciones del paquete. Dejar enfriar.</step>
-            <step>Trocear el mango y el aguacate en cubos pequeños.</step>
-            <step>Picar finamente la cebolla morada.</step>
-            <step>En un bol grande, mezclar la quinoa cocida, el mango, el aguacate y la cebolla.</step>
-            <step>Añadir las nueces troceadas, el zumo de limón y el aceite de oliva. Mezclar bien.</step>
-            <step>Salpimentar al gusto y decorar con hojas de cilantro fresco antes de servir.</step>
+            <step>Picar la cebolla, el ajo y el pimiento.</step>
+            <step>Sofreír las verduras en aceite de oliva.</step>
+            <step>Añadir la sepia troceada y cocinar unos minutos.</step>
+            <step>Incorporar el arroz y la tinta de calamar, removiendo bien.</step>
+            <step>Agregar el caldo de pescado caliente poco a poco y cocinar el arroz hasta que esté en su punto.</step>
+            <step>Servir caliente.</step>
         </steps>
-        <image>../imatges/ensalada.jpg</image>
+        <media>
+            <image src="../imatges/arroz_negro.jpg" alt="Arroz negro" />
+        </media>
     </recipe>
-</recipes>
+    <recipe id="2">
+        <title>Base de pizza</title>
+        <ingredients>
+            <ingredient>500 g de harina</ingredient>
+            <ingredient>300 ml de agua</ingredient>
+            <ingredient>10 g de levadura seca</ingredient>
+            <ingredient>1 cucharadita de sal</ingredient>
+            <ingredient>2 cucharadas de aceite de oliva</ingredient>
+        </ingredients>
+        <time>
+            <prep>15 minutos</prep>
+            <cook>10 minutos</cook>
+            <total>25 minutos</total>
+            <servings>4</servings>
+        </time>
+        <steps>
+            <step>Disolver la levadura en agua tibia.</step>
+            <step>Mezclar la harina con la sal y formar un volcán.</step>
+            <step>Incorporar el agua con levadura y el aceite al centro y amasar hasta obtener una masa homogénea.</step>
+            <step>Dejar reposar la masa cubierta durante 1 hora.</step>
+            <step>Extender la masa con un rodillo y darle forma de pizza.</step>
+            <step>Hornear la base a 220°C durante 10 minutos.</step>
+        </steps>
+        <media>
+            <image src="../imatges/base_pizza.jpg" alt="Base de pizza" />
+        </media>
+    </recipe>

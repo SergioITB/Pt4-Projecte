@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <recipes>
     <recipe id="1">
-        <title>Arroz negro</title>
+        <title>arroz_negro</title>
         <ingredients>
             <ingredient>300 g de arroz</ingredient>
             <ingredient>250 g de sepia</ingredient>
@@ -31,7 +31,7 @@
             <image src="../imatges/arroz_negro.jpg" alt="Arroz negro" />
         </media>
     </recipe>
-    <recipe id="2">
+    <recipe id="base_pizza">
         <title>Base de pizza</title>
         <ingredients>
             <ingredient>500 g de harina</ingredient>
@@ -58,7 +58,7 @@
             <image src="../imatges/base_pizza.jpg" alt="Base de pizza" />
         </media>
     </recipe>
-    <recipe id="3">
+    <recipe id="carbonara">
         <title>Espaguetis a la Carbonara</title>
         <ingredients>
             <ingredient>400 g de espaguetis</ingredient>
@@ -85,7 +85,7 @@
             <image src="../imatges/carbonara.jpg" alt="Espaguetis a la Carbonara" />
         </media>
     </recipe>
-    <recipe id="4">
+    <recipe id="alfredo">
         <title>Fettuccine Alfredo</title>
         <ingredients>
             <ingredient>400 g de fettuccine</ingredient>
@@ -111,7 +111,7 @@
             <image src="../imatges/alfredo.jpg" alt="Fettuccine Alfredo" />
         </media>
     </recipe>
-    <recipe id="5">
+    <recipe id="lasagna">
         <title>Lasagna</title>
         <ingredients>
             <ingredient>12 láminas de pasta para lasaña</ingredient>
@@ -143,7 +143,7 @@
             <image src="../imatges/lasagna.jpg" alt="Lasagna" />
         </media>
     </recipe>
-    <recipe id="6">
+    <recipe id="macarrones_queso">
         <title>Macarrones con queso</title>
         <ingredients>
             <ingredient>400 g de macarrones</ingredient>
@@ -172,7 +172,7 @@
             <image src="../imatges/macarrones_queso.jpg" alt="Macarrones con queso" />
         </media>
     </recipe>
-    <recipe id="7">
+    <recipe id="pasta_pesto">
         <title>Pasta al pesto</title>
         <ingredients>
             <ingredient>400 g de pasta</ingredient>
@@ -199,7 +199,7 @@
             <image src="../imatges/pasta_pesto.jpg" alt="Pasta al pesto" />
         </media>
     </recipe>
-    <recipe id="8">
+    <recipe id="raviolis_espinaca">
         <title>Raviolis de espinaca</title>
         <ingredients>
             <ingredient>400 g de raviolis rellenos de espinaca</ingredient>
@@ -225,7 +225,7 @@
             <image src="../imatges/raviolis_espinaca.jpg" alt="Raviolis de espinaca" />
         </media>
     </recipe>
-    <recipe id="9">
+    <recipe id="tallarines_mariscos">
         <title>Tallarines con mariscos</title>
         <ingredients>
             <ingredient>400 g de tallarines</ingredient>
@@ -255,7 +255,7 @@
             <image src="../imatges/tallarines_mariscos.jpg" alt="Tallarines con mariscos" />
         </media>
     </recipe>
-    <recipe id="10">
+    <recipe id="pasta_primavera">
         <title>Pasta primavera</title>
         <ingredients>
             <ingredient>400 g de pasta</ingredient>
@@ -285,7 +285,7 @@
             <image src="../imatges/pasta_primavera.jpg" alt="Pasta primavera" />
         </media>
     </recipe>
-    <recipe id="11">
+    <recipe id="spaghetti_bolognese">
         <title>Spaghetti Bolognese</title>
         <ingredients>
             <ingredient>400 g de espaguetis</ingredient>
@@ -315,7 +315,7 @@
             <image src="../imatges/spaghetti_bolognese.jpg" alt="Spaghetti Bolognese" />
         </media>
     </recipe>
-    <recipe id="12">
+    <recipe id="pasta_salsa_tomate">
         <title>Pasta con salsa de tomate</title>
         <ingredients>
             <ingredient>400 g de pasta</ingredient>
@@ -343,7 +343,7 @@
             <image src="../imatges/pasta_salsa_tomate.jpg" alt="Pasta con salsa de tomate" />
         </media>
     </recipe>
-    <recipe id="13">
+    <recipe id="ensalada_pasta">
         <title>Ensalada de pasta</title>
         <ingredients>
             <ingredient>400 g de pasta corta</ingredient>
@@ -372,7 +372,7 @@
             <image src="../imatges/ensalada_pasta.jpg" alt="Ensalada de pasta" />
         </media>
     </recipe>
-    <recipe id="14">
+    <recipe id="pasta_champinones">
         <title>Pasta con champiñones</title>
         <ingredients>
             <ingredient>400 g de pasta</ingredient>
@@ -401,7 +401,7 @@
             <image src="../imatges/pasta_champinones.jpg" alt="Pasta con champiñones" />
         </media>
     </recipe>
-    <recipe id="15">
+    <recipe id="pasta_esparragos">
         <title>Pasta con espárragos</title>
         <ingredients>
             <ingredient>400 g de pasta</ingredient>
@@ -428,7 +428,7 @@
             <image src="../imatges/pasta_esparragos.jpg" alt="Pasta con espárragos" />
         </media>
     </recipe>
-    <recipe id="16">
+    <recipe id="pasta_albahaca">
         <title>Pasta con albahaca</title>
         <ingredients>
             <ingredient>400 g de pasta</ingredient>

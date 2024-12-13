@@ -73,7 +73,7 @@
                             <!-- Sección de multimedia -->
                             <section class="media">
                                 <h2>Multimedia</h2>
-                                <img src="{image}" alt="Imagen de la receta" />
+                                <img src="../imatges/{media/image/@src}" alt="Imagen de la receta" />
                             </section>
                         </main>
                         

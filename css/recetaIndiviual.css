@@ -131,12 +131,14 @@ section {
 
 /* Pie de página */
 footer {
-    background-color: #333; 
+    background-color: #333;
     color: white;
     padding: 30px;
     text-align: center;
-    word-spacing: 30px;
     flex: auto;
+    display: flex;
+    justify-content: center; /* Centra los enlaces */
+    gap: 30px; /* Espaciado uniforme entre los enlaces */
 }
 .pie {
     color: white;

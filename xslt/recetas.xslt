@@ -13,21 +13,21 @@
                         <title>
                             <xsl:value-of select="title" />
                         </title>
-                        <link rel="stylesheet" href="../css/recetaIndiviual.css" />
+                        <link rel="stylesheet" href="../../css/recetaIndiviual.css" />
                     </head>
                     <body>
                         <!-- Encabezado -->
                         <header>
                             <div class="logo">
-                                <img src="../imatges/delicias.png" alt="Delicias Kitchen Logo" />
+                                <img src="../../imatges/delicias.png" alt="Delicias Kitchen Logo" />
                             </div>
                             <nav>
                                 <ul>
-                                    <li><a class="indice" href="../index.html">INICIO</a></li>
-                                    <li><a class="indice" href="../sobre_mi/sobre_mi.html">SOBRE MÍ</a></li>
-                                    <li><a class="indice" href="../receta/receta.html">RECETAS</a></li>
-                                    <li><a class="indice" href="../contacto/contacto.html">CONTACTO</a></li>
-                                    <li><a class="indice" href="../otras_cosas/otras_cosas.html">OTRAS COSAS</a></li>
+                                    <li><a class="indice" href="../../index.html">INICIO</a></li>
+                                    <li><a class="indice" href="../../sobre_mi/sobre_mi.html">SOBRE MÍ</a></li>
+                                    <li><a class="indice" href="../../receta/receta.html">RECETAS</a></li>
+                                    <li><a class="indice" href="../../contacto/contacto.html">CONTACTO</a></li>
+                                    <li><a class="indice" href="../../otras_cosas/otras_cosas.html">OTRAS COSAS</a></li>
                                 </ul>
                             </nav>
                         </header>

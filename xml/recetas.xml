@@ -169,7 +169,7 @@
             <step>Servir caliente.</step>
         </steps>
         <media>
-            <image src="../imatges/../macarrones_queso.jpg" alt="Macarrones con queso" />
+            <image src="../../macarrones_queso.jpg" alt="Macarrones con queso" />
         </media>
     </recipe>
     <recipe id="pasta_pesto">
